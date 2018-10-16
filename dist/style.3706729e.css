@@ -1,0 +1,13 @@
+body { 
+  margin: 0%;
+  background-color: lavender;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%
+}
+
+#navigation {
+  color: lightgrey; 
+  grid-column: 1/5;
+
+}
