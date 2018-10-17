@@ -17,7 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "lodash": "^4.17.11",
     "navigo": "^7.1.2",
     "popmotion": "^8.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
   }
 }
