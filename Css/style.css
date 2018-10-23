@@ -1,13 +1,23 @@
-body { 
-  margin: 0%;
-  background-color: lavender;
+#root {
+  margin: 0;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%
+  grid-template-areas:
+    "navigation"
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: min-content min-content auto min-content;
+}
+
+body {
+  background-color: lavender; 
 }
 
 #navigation {
-  color: lightgrey; 
-  grid-column: 1/5;
-
+  background-color: #c5ccd1 ;
+  color: purple;
+  grid-area: navigation;
+  padding: 5px;
+  position: sticky;
+  top: 0;
 }
